@@ -16,4 +16,9 @@ The fourth and fifth LSTM layers (L4 and L5) have 4 and 16 neurons, respectively
 
 The final layer (output) is a TimeDistributed dense layer, which applies a dense (fully connected) layer to each time step of the input. The number of neurons in this layer is specified to be the same as the number of columns in X.shape[2].
 
-Finally, the code creates a Model object using the inputs and outputs, and returns it. The Model object can be used to train the auto
+# Graph Adversarial Networks
+Sources - https://github.com/gusty1g/TadGAN
+
+
+# Reconstruction Loss Logic
+
