@@ -16,3 +16,46 @@ The fourth and fifth LSTM layers (L4 and L5) have 4 and 16 neurons, respectively
 
 The final layer (output) is a TimeDistributed dense layer, which applies a dense (fully connected) layer to each time step of the input. The number of neurons in this layer is specified to be the same as the number of columns in X.shape[2].
 
+                                            Input Layer
+                                                |
+                                                |
+                                                V
+                                           +--------------+
+                                           | LSTM (16)    |
+                                           +--------------+
+                                                |
+                                                |
+                                                V
+                                           +--------------+
+                                           | LSTM (4)     |
+                                           +--------------+
+                                                |
+                                                |
+                                                V
+                                           +--------------+
+                                           | RepeatVector |
+                                           +--------------+
+                                                |
+                                                |
+                                                V
+                                           +--------------+
+                                           | LSTM (4)     |
+                                           +--------------+
+                                                |
+                                                |
+                                                V
+                                           +--------------+
+                                           | LSTM (16)    |
+                                           +--------------+
+                                                |
+                                                |
+                                                V
+                                           +--------------+
+                                           | TimeDistributed + Dense (X.shape[2])
+                                           +--------------+
+                                                |
+                                                |
+                                                V
+                                            Output Layer
+
+
