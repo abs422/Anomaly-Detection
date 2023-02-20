@@ -29,6 +29,9 @@ os.chdir('C:/Lehigh/Rick- Anomaly Detection/Aogan')
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
+if not os.path.isdir("weights"):
+	os.mkdir("weights")
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--img_idx', type=int, default=14)
 parser.add_argument('--label_idx', type=int, default=7)
