@@ -20,6 +20,7 @@ The final layer (output) is a TimeDistributed dense layer, which applies a dense
 Sources - 
 
 https://github.com/gusty1g/TadGAN
+\n
 https://pypi.org/project/anomaly-toolbox/
 
 
