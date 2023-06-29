@@ -1,3 +1,5 @@
+Use this link - https://sumo.dlr.de/docs/index.html to install SUMO
+
 Step 1:
 Download osm file for desired region using openstreetmap.org
 
