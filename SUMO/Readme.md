@@ -16,3 +16,5 @@ duarouter -n map.net.xml --route-files map.trips.xml -o map.rou.xml
 
 Step 6: Type following command in cmd to generate FCD output "sumoTrace.xml" file
 sumo -c map.sumo.cfg --fcd-output sumoTrace.xml
+
+Link here for SUMO FCD output - https://sumo.dlr.de/docs/Simulation/Output/FCDOutput.html
