@@ -1,5 +1,5 @@
 Use this link - https://sumo.dlr.de/docs/index.html to install SUMO
-
+Use this link for tutorial on generating simulated traffic SUMO data using open street maps website, mentioned below - https://www.youtube.com/watch?v=wZycufsTEGU
 Step 1:
 Download osm file for desired region using openstreetmap.org
 
