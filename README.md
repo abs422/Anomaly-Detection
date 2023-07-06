@@ -1,5 +1,5 @@
 # Anomaly-Detection
-
+## Below we have a sample LSTM Auto-Encoder (AE) architecture to reconstruct sensor values over time, in order to detect bad data (anomalies) 
 The first multivariate LSTM has following structure, explained in words (block diagram will be available soon) -
 
 The code defines an autoencoder model using the Tensorflow framework. An autoencoder is a type of neural network that is trained to reconstruct its inputs. The code uses the Long Short-Term Memory (LSTM) architecture, which is a type of Recurrent Neural Network (RNN) architecture specifically designed to handle sequences of data.
