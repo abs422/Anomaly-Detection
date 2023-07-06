@@ -63,3 +63,5 @@ The final layer (output) is a TimeDistributed dense layer, which applies a dense
                                             Output Layer
 
 
+## Utility of each code file in this directory
+multivar_lstm_anomaly_detection_v7 is the final AE code file, which is showing that the deep learning models can reconstruct even attacked paths well if the paths are at all valid. Only in case of point anomalies or large anomalies, LSTM AE can actually identify attacked sensor.
